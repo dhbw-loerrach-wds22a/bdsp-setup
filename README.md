@@ -18,8 +18,8 @@ This repository contains scripts and configurations for setting up MongoDB and M
 2. Install the required Python packages:
 ```pip install -r requirements.txt```
 
-## Adding the Yelp Dataset
-1. Download the Yelp dataset from the official [Yelp Dataset page](https://www.yelp.com/dataset).
+## Adding the Customer Dataset
+1. Download the Yelp dataset from the official [eCommerce behavoir data](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store/).
 2. Place the individual files from the downloaded dataset in the `data` folder, which should be in the same directory as the scripts.
 
 
@@ -28,7 +28,7 @@ Before running the setup scripts, ensure you have the correct server credentials
 
 ## Running the Scripts
 Run the setup scripts to configure the databases:
-```python import_data.py```
+```python setup_mysql.py```
 
 
 ## Security Note
