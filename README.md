@@ -16,7 +16,6 @@ Project folder
   - bdsp-setup
   - bdsp-extract-pipe
   - bdsp-services
-### Usage
 
 ## Files Description
 - `setup_mysql.py`: Script for setting up the MySQL database.
