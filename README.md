@@ -4,6 +4,20 @@
 ## Overview
 This repository contains scripts and configurations for setting up MongoDB and MySQL databases, along with a script for importing data into these databases.
 
+## Repository setup
+Clone the repositories from [GitHub](https://github.com/dhbw-loerrach-wds22a)
+1. [bdsp-setup](https://github.com/dhbw-loerrach-wds22a/bdsp-setup)
+3. [bdsp-extract-pipe](https://github.com/dhbw-loerrach-wds22a/bdsp-extract-pipe)
+4. [bdsp-services](https://github.com/dhbw-loerrach-wds22a/bdsp-services)
+
+Layout of the repositories:
+
+Project folder
+  - bdsp-setup
+  - bdsp-extract-pipe
+  - bdsp-services
+### Usage
+
 ## Files Description
 - `setup_mysql.py`: Script for setting up the MySQL database.
 - `requirements.txt`: Contains a list of Python packages required to run the scripts.
