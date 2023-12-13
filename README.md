@@ -20,12 +20,13 @@ Project folder
 
 ## Files Description
 - `setup_mysql.py`: Script for setting up the MySQL database.
+- 'fake_data.py': Script for creating dummy data.
+- 'check_dup.py': Script that checks for duplicates.
 - `requirements.txt`: Contains a list of Python packages required to run the scripts.
 
 ## Prerequisites
 - Python 3.x installed.
-- Access to MongoDB and MySQL servers. See repository "services" for the docker containers needed to run this project.
-- Downloaded Yelp dataset.
+- Access to theMySQL container. See repository "bdsp-services" for the docker containers needed to run this project.
 
 ## Installation
 1. Clone the repository to your local machine.
@@ -38,9 +39,13 @@ Project folder
 
 
 ## Configuration
-Before running the setup scripts, ensure you have the correct server credentials, including the IP address and other necessary details, configured in `setup_mongo.py` and `setup_mysql.py`.
+Before running the setup script:
 
-## Running the Scripts
+- Ensure MySQL service is running.
+- Update the script with the correct MySQL connection details and credentials.
+
+- 
+## Running the Script
 Run the setup scripts to configure the databases:
 ```python setup_mysql.py```
 
