@@ -20,8 +20,8 @@ Project folder
 
 ## Files Description
 - `setup_mysql.py`: Script for setting up the MySQL database.
-- 'fake_data.py': Script for creating dummy data.
-- 'check_dup.py': Script that checks for duplicates.
+- `fake_data.py`: Script for creating dummy data.
+- `check_dup.py`: Script that checks for duplicates.
 - `requirements.txt`: Contains a list of Python packages required to run the scripts.
 
 ## Prerequisites
