@@ -2,7 +2,7 @@
 # See services repository for setup instructions
 
 ## Overview
-This repository contains scripts and configurations for setting up MongoDB and MySQL databases, along with a script for importing data into these databases.
+This repository contains a script and configurations for setting up a MySQL database, along with  importing data into the database.
 
 ## Repository setup
 Clone the repositories from [GitHub](https://github.com/dhbw-loerrach-wds22a)
