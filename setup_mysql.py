@@ -21,15 +21,15 @@ def connect_to_database():
     except Error as e:
         print("Error while connecting to MySQL", e)
 
-def create_table():
+def create_table(suffix=""):
     connection = connect_to_database()
     if connection is None:
         return
 
     cursor = connection.cursor()
 
-    create_table_query = """
-    CREATE TABLE IF NOT EXISTS events (
+    create_table_query = f"""
+    CREATE TABLE IF NOT EXISTS events{suffix} (
         event_time DATETIME,
         event_type VARCHAR(255),
         product_id BIGINT,
@@ -116,6 +116,7 @@ def format_time(seconds):
 
 
 create_table()
+create_table("_live")
 
 # Loop through all files in the directory
 for file_name in os.listdir(data_dir):
