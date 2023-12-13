@@ -44,7 +44,6 @@ Before running the setup script:
 - Ensure MySQL service is running.
 - Update the script with the correct MySQL connection details and credentials.
 
-- 
 ## Running the Script
 Run the setup scripts to configure the databases:
 ```python setup_mysql.py```
